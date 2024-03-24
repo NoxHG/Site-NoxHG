@@ -1,0 +1,22 @@
+.imagem-stardew-valley {
+    border-radius: 15px;
+    margin: 10px;
+    size: 10px;
+}    
+
+.imagem-terraria {
+    border-radius: 15px;
+    margin: 10px;
+    size: 10px;
+}
+
+.links {
+    color: red;
+    padding-right: 100px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/sunday-brunch');
+
+body {
+    font-family: 'Qakergu', sans-serif;
+}

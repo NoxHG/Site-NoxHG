@@ -1,0 +1,23 @@
+.FotoTitulo {
+    margin-left: 33%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.Titulo-Principal {
+    text-align: center;
+}
+
+.Titulo-Menor {
+    text-align: center;
+    line-height: 1px;
+}
+
+.Links {
+    justify-items: center;
+    color: rgb(255, 0, 0);
+}
+
+body {
+    background-color:whitesmoke;
+    font-family: 'Qakergu', sans-serif;
+}
