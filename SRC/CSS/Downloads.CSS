@@ -2,12 +2,14 @@
     border-radius: 15px;
     margin: 10px;
     size: 10px;
+    border: 2px solid;
 }    
 
 .imagem-terraria {
     border-radius: 15px;
     margin: 10px;
     size: 10px;
+    border: 2px solid;
 }
 
 .links {
@@ -19,4 +21,44 @@
 
 body {
     font-family: 'Qakergu', sans-serif;
+    background-color: black;
+}
+
+.corpo {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.cabecalho {
+    background-color:white;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.cabecalho h1 {
+    margin-left: 10px;
+}
+
+.cabecalho h3 {
+    margin-left: 10px;
+}
+
+.cabecalho a {
+    margin-left: 30px;
+    color: red;
+}
+
+.corpo a {
+    margin-left: 25px;
+}
+
+.corpo img {
+    margin-left: 95px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Requisitos {
+    margin-left: 30px;
 }
