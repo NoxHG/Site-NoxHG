@@ -1,10 +1,12 @@
 .FotoTitulo {
-    margin-left: 33%;
+    margin-left: 40%;
     margin-top: 10px;
     border-radius: 15px;
 }
 .Titulo-Principal {
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .Titulo-Menor {
@@ -13,11 +15,24 @@
 }
 
 .Links {
-    justify-items: center;
+    
     color: rgb(255, 0, 0);
+    margin-left: 40px;
+    padding-left: 20px;
+    
 }
 
 body {
     background-color:whitesmoke;
     font-family: 'Qakergu', sans-serif;
+}
+
+.cabecalho {
+    background-color: antiquewhite;
+    border: 4px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.cabecalho {
+    margin-top: 100px;
 }
