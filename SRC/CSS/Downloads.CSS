@@ -3,6 +3,7 @@
     margin: 10px;
     size: 10px;
     border: 2px solid;
+    align-items: center;
 }    
 
 .links {
@@ -16,18 +17,7 @@
 body {
     font-family: 'Qakergu', sans-serif;
     background-color: black;
-}
-
-.corpo {
-    background-color: white;
-    border: 2px solid;
-    border-radius: 15px;
-}
-
-.cabecalho {
-    background-color:white;
-    border: 2px solid;
-    border-radius: 15px;
+    background-image:linear-gradient(to right, red, blue)
 }
 
 .cabecalho h1 {
@@ -40,7 +30,8 @@ body {
 
 .cabecalho a {
     margin-left: 30px;
-    color: red;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .corpo a {
@@ -48,11 +39,33 @@ body {
 }
 
 .corpo img {
-    margin-left: 95px;
+    margin-left: 35%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .Requisitos {
     margin-left: 30px;
+    align-items: center;
+    color: whitesmoke;
+    background-color:rgba(0, 0, 0, 0.185) ;
+    background-position:inherit;
+    border: 2px solid black;
+}
+
+.titulo-download {
+    text-align: center;
+    color:white;
+}
+
+.titulo-menor-download {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    align-items: center;
+    padding-left: 45%;
+    margin: -10px;
 }
