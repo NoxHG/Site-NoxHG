@@ -4,35 +4,62 @@
     border-radius: 15px;
 }
 .Titulo-Principal {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: white;
     border-radius: 10px;
+    margin-left: 5px;
+    margin-left: 40px;
 }
 
 .Titulo-Menor {
-    text-align: center;
+    text-align: left;
+    color:white;
     line-height: 1px;
+    margin-left: 40px;
 }
 
 .Links {
     
-    color: rgb(255, 0, 0);
-    margin-left: 40px;
+    color: rgb(255, 255, 255);
     padding-left: 20px;
+    display: flex;
     
 }
 
 body {
-    background-color:whitesmoke;
     font-family: 'Qakergu', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:linear-gradient(to right, blue,red)
 }
 
 .cabecalho {
-    background-color: antiquewhite;
-    border: 4px solid antiquewhite;
     border-radius: 10px;
 }
 
 .cabecalho {
     margin-top: 100px;
+}
+
+body header {
+    background-color: black;
+}
+
+body footer {
+    margin-top: 200px;
+    background-color: black;
+}
+
+.footer {
+    color:white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.header {
+    color:white;
+    padding-top:25px;
+    padding-bottom: 25px;
+    text-align: center;
 }
